@@ -8,3 +8,5 @@ services:
         - ./main:/var/www/html
         # a princípio usar o php.ini-production da própria imagem
         - ./php.ini:/usr/local/etc/php/php.ini:ro
+      user: "${UID}:${GID}"
+
