@@ -1,0 +1,1 @@
+Para usar, criar ou linkar um diretório main com os arquivos do wordpress, e colocar um php.ini junto do arquivo compose, sendo recomendado usar o /usr/local/etc/php/php.ini-development da própria imagem
